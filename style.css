@@ -18,6 +18,8 @@ p{
 PC用のスタイル
 ========== */
 @media screen and (min-width: 768px) {
+
+
 /* 横幅設定 */
 body {
   max-width: 1080px;
@@ -680,6 +682,8 @@ footer {
 .product-h3 {
   font-size: 28px;
   margin: 0;
+}
+
 }
 
 /*====================
