@@ -1,0 +1,103 @@
+/* Google Web Fontsのインポート */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+/* 共通スタイル */
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #f7f7f7;
+}
+
+header h1, nav a {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.main-visual img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#about {
+    padding: 50px 0;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#about h2 {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+#about .about-content img {
+    flex: 1;
+}
+
+#about .about-content ul {
+    flex: 1;
+    padding: 0 5%;
+    list-style-type: none;
+}
+
+#about .about-content li:first-child {
+    font-size: 24px;
+}
+
+#about .about-content li {
+    font-size: 18px;
+}
+
+#works {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work-item {
+    width: 30%;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.work-item p {
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f7f7f7;
+    font-size: 18px;
+}
+
+/* フロートをクリアするためのクラス */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
